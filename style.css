@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #333);
+    color: white;
+    text-align: center;
+}
+
+.header {
+    padding: 50px 20px;
+}
+
+.animate-title {
+    font-size: 60px;
+    color: #ff4d4d;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-50px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+p {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+.playlist-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #ff4d4d;
+    margin-bottom: 20px;
+}
+
+#playlist {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.track {
+    background-color: #2a2a2a;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.track:hover {
+    background-color: #444;
+}
+
+.track p {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+    display: none; /* Audio elementni yashiramiz, faqat nomlar ko‘rinadi */
+}
+
+.player-controls {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e03e3e;
+}

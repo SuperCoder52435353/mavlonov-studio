@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mavlonov Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="animate-title">Mavlonov Studio</h1>
+        <p>Xush kelibsiz! Eng yaxshi musiqalarni shu yerda tinglang.</p>
+    </div>
+
+    <div class="playlist-container">
+        <h2>Pleylist</h2>
+        <div id="playlist">
+            <div class="track" onclick="playTrack(0)">
+                <p>1. Yulduz Usmonova - Yallar</p>
+                <audio id="track0">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(1)">
+                <p>2. Ozodbek Nazarbekov - Sevgi</p>
+                <audio id="track1">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(2)">
+                <p>3. Doston Ergashev - Yomg‘ir</p>
+                <audio id="track2">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(3)">
+                <p>4. Shohruh - Bu Sevgi</p>
+                <audio id="track3">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(4)">
+                <p>5. Munisa Rizayeva - Bir Kam Dunyo</p>
+                <audio id="track4">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(5)">
+                <p>6. Jaloliddin Ahmadaliyev - Yomon</p>
+                <audio id="track5">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(6)">
+                <p>7. Shahzoda - Hayot</p>
+                <audio id="track6">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(7)">
+                <p>8. Rayhon - Sevgilim</p>
+                <audio id="track7">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(8)">
+                <p>9. Shoxrux - O‘zbekona</p>
+                <audio id="track8">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(9)">
+                <p>10. Ulug‘bek Rahmatullayev - Sevaman</p>
+                <audio id="track9">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(10)">
+                <p>11. Botir Qodirov - Do‘st</p>
+                <audio id="track10">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(11)">
+                <p>12. Sevara Nazarkhan - Yor</p>
+                <audio id="track11">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(12)">
+                <p>13. Farrukh Zokirov - Yalla</p>
+                <audio id="track12">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(13)">
+                <p>14. Dildora Niyozova - Baxt</p>
+                <audio id="track13">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="track" onclick="playTrack(14)">
+                <p>15. Sherali Jo‘rayev - O‘zbekiston</p>
+                <audio id="track14">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <div class="player-controls">
+        <button onclick="playAll()">Hammasini Oynat</button>
+        <button onclick="pauseAll()">Pauza</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
